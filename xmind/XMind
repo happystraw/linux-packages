@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if [ ! -d ${HOME}/.xmind ]; then
+    echo 'init configuration'
+    mkdir -p ${HOME}/.xmind
+    cp -r /opt/xmind/XMind/configuration ${HOME}/.xmind/
+fi
+
+exec /opt/xmind/XMind/XMind "$@"
