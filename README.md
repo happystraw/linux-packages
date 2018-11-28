@@ -5,5 +5,6 @@
 ## 软件列表
 
 * [thunderbird](./thunderbird/README.md)
-* [xmind](./xmind/README.md)
+* [xmind 8](./xmind/README.md)
+* [xmind zen](./xmind-zen/README.md)
 

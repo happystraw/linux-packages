@@ -7,12 +7,12 @@
 ## Install
 
 ```shell
-sudo ./install
+sudo ./install.sh
 ```
 
 ## Uninstall
 
 ```
-sudo ./uninstall
+sudo ./uninstall.sh
 ```
 
