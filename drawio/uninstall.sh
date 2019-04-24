@@ -1,4 +1,8 @@
 #!/bin/sh
+if [ "${USER}" != "root" ]; then
+    echo "Permission denied, try rerunning as root"
+    exit 1
+fi
 
 PKG_DIR=""
 

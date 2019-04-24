@@ -1,4 +1,8 @@
 #!/bin/bash
+if [ "${USER}" != "root" ]; then
+    echo "Permission denied, try rerunning as root"
+    exit 1
+fi
 
 WORKSPACE="$(cd "$(dirname "$0")" && pwd)"
 
